@@ -1,1 +1,1 @@
-# Machine-Learning_Binary-Classification_-SMS-Spam-Detection
+# Binary Classification: SMS Spam Detection
