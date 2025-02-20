@@ -37,36 +37,21 @@ This project is a machine learning-based spam detection classifier that identifi
 
 3. **Run the model on sample data**  
    ```bash
-   python predict.py --message "Win a free iPhone now!"
+   python predict.py
    ```
 
-### 🏋️‍♂️ Training the Model
-To train the spam detection classifier on the dataset, run:  
-```bash
-python train.py
-```
-The trained model will be saved in the `models/` directory.
 
 ### 📊 Evaluation
-The model is evaluated using:
+The performance of the model is assessed through the following metrics::
 - **Accuracy:** 99%
 - **Precision:** 98%
 - **Recall:** 94%
 - **F1-Score:** 96%
 
-### 🔥 Example Usage
-```python
-from src.spam_classifier import SpamClassifier
-
-model = SpamClassifier.load("models/spam_model.pkl")
-message = "Congratulations! You've won a lottery."
-prediction = model.predict(message)
-print("Spam" if prediction else "Not Spam")
-```
 
 ### 📌 To-Do
-- [ ] Improve model accuracy
-- [ ] Implement real-time email filtering
+- [ ] Improve Spam F1-Score
+- [ ] Implement real-time sms filtering
 - [ ] Deploy as a web API
 
 ### 🙌 Contributions
@@ -75,7 +60,5 @@ Feel free to contribute! Open a pull request or file an issue.
 ### 📜 License
 [MIT License](LICENSE)
 
----
 
-Feel free to modify or expand on this as needed for your GitHub repository! 🚀
 
