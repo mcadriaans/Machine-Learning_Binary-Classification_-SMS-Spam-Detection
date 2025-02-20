@@ -1,13 +1,3 @@
-Sure! Based on the image, here's the customized command for your project:
-
-```bash
-git clone https://github.com/mcadriaans/Machine_Learning_Spam-Detection.git
-cd Machine_Learning_Spam-Detection
-```
-
-Here's the full customized README for your GitHub repository:
-
----
 
 ## 📌 Spam Detection Classification Project
 
