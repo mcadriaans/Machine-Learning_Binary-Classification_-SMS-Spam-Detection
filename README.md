@@ -2,26 +2,25 @@
 ## 📌 Spam Detection Classification Project
 
 ### 📖 Overview
-This project is a machine learning-based spam detection classifier that identifies whether a given message is spam or not. It uses **Support Vector Machine (SVM)** trained on the **SMS Spam Collection** dataset to classify text messages.
+This project is a machine learning-based spam detection classifier that identifies whether a given message is spam or not. It uses **Support Vector Machine (SVM)** trained on the **SMS spam** dataset to classify text messages.
 
 ### 🚀 Features
 - **Text preprocessing**: Tokenization, stopword removal, stemming.
 - **Feature extraction**: TF-IDF vectorization.
 - **Classification model**: Support Vector Machine (SVM).
 - **Evaluation metrics**: Accuracy, Precision, Recall, F1-score.
-- **Deployment**: [Optional—Flask API, Streamlit app, etc.]
+
 
 ### 📂 Project Structure
 ```
 📁 Machine_Learning_Spam-Detection
 │── 📂 data               # Dataset files
-│── 📂 notebooks          # Jupyter notebooks for EDA & training
 │── 📂 models             # Saved trained models
-│── 📂 src                # Source code for training & prediction
-│── 📜 requirements.txt   # Dependencies
+│── 📂 notebooks          # Jupyter notebooks for EDA & training
 │── 📜 README.md          # Project documentation
-│── 📜 train.py           # Training script
 │── 📜 predict.py         # Prediction script
+│── 📜 requirements.txt   # Dependencies
+
 ```
 
 ### 🛠 Installation & Setup
